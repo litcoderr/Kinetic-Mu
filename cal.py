@@ -7,7 +7,7 @@ def cal(v1,v2,m):
     S = 0.2
     G = 9.8
     # Calculate
-    mu = (m/M)-(math.pow(v1,2)-math.pow(v2,2))/(2*S*G)
+    mu = (m/M)-(math.pow(v2,2)-math.pow(v1,2))/(2*S*G)
     print(mu)
 
 v1 = input()
